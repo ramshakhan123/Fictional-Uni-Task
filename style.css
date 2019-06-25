@@ -1,0 +1,412 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header figure, information figure {
+    margin: 0;
+    position: relative;
+    display: inline-block;
+}
+
+header img {
+   width: 100%;
+   height: 400px;
+}
+
+header figcaption {
+    height: 400px;
+    text-align: center;
+    background-color: #000000c9;
+    color: white;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+header h3 {
+   color: #94734a;
+   
+   display: inline-block;
+    margin: 0;
+    position: absolute;
+    left: 50px;
+    top: 0;
+    font-size: 25px;
+}
+
+strong {
+    color: white;
+}
+
+
+header ul {
+    list-style: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0;
+    text-align: right;
+    padding: 10px 40px;
+    display: block;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav  button {
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    margin: 10px;
+}
+
+.login {
+    background-color: #f99b44;
+}
+
+.sign-in {
+    background-color: #ff3115;
+}
+
+i.fas.fa-search {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+
+i.fas.fa-bars {
+    font-size: 30px;
+    text-align: right;
+    padding: 10px 40px;
+    display: none;
+}
+
+.major {
+    padding: 13px 40px;
+    font-size: 19px;
+   border-radius: 10px;
+   border:none;
+   background-color: #043867;
+   color: white;
+}
+
+ header h4 {
+    font-size: 21px;
+    margin-top: 0;
+    font-weight: lighter;
+}
+
+header h1 {
+     font-weight: lighter;
+     font-size: 60px;
+     margin-bottom: 0;
+}
+
+header h2 {
+    font-size: 46px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+header div {
+    line-height: 58px;
+}
+
+@media ( max-width:375px) {
+    ul {
+        display: none;
+    }
+    i.fas.fa-bars {
+        display: block;
+    }
+
+   h3 {
+       left: 10px;
+   } 
+
+}
+
+description h2 {
+    font-weight: lighter;
+    color: saddlebrown;
+    text-align: center;
+}
+
+.march, .apr, .aug {
+    border-radius: 48%;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 12px 10px 4px 12px;
+    background-color: #043867;
+    border: none;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.aug {
+    background-color: #f6d652;
+}
+
+section h3 {
+    text-decoration: underline;
+    color: #8ca5b1;
+    margin: 0;
+}
+ 
+.poem, .picnic-party, .award, .test-post {
+    display: flex;
+margin: 20px;
+}
+
+.details {
+    margin-left: 9px;
+}
+
+ .details p{
+     margin-top: 0;
+     width: 470px;
+}
+
+.details p a {
+    color: gray;
+}
+
+description {
+    display: flex;
+    margin-top: -4px;
+    height: 380px;
+   
+    
+}
+
+.our-blogs {
+    background-color: #faf2c8;
+    border: none;
+}
+
+.our-blogs, .up-coming-events {
+   width: 50%;
+}
+
+description button {
+    padding: 13px 15px;
+    font-size: 15px;
+    border-radius: 4px;
+    color: white;
+    background-color: #043867;
+    border: none;
+} 
+
+   
+.blog {
+    background-color: #f6d652;
+    
+}
+
+.events, .blog {
+    position: relative;
+    left: 35%;
+    right: 35%;
+   margin-top: 5px;
+}
+
+date {
+     font-weight: bolder;
+     font-size: 25px;
+}
+
+/*@media (min-width: 370px) {
+  header h3 {
+      left: 0;
+      font-size: 22px;
+  }
+  i.fas.fa-bars {
+      padding: 10px;
+      font-size: 10px;
+  }   
+ header div {
+     line-height: 54px;
+ }
+ header h2 {
+     font-size: x-large;
+ } 
+
+header h4 {
+    font-size: 13px;
+}
+   .details p {
+    width: 215px;
+    font-size: 10px;
+   } 
+  description {
+      display:flex;
+      flex-direction: column;
+  }
+  .up-coming-events, .our-blogs {
+      width: auto;
+  }
+ .events, .blog {
+     left: 28%;
+ } 
+}*/
+
+.slide {
+    text-align: center;
+}
+
+
+.dot {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color:red;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+
+
+section  h2 {
+    font-weight: lighter;
+    font-size: 30px;
+    margin-top: 0;
+    padding-top: 30px;
+
+
+}
+
+.learn {
+    padding: 15px 20px;
+    background-color: #043867;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.mySlides  {
+    position: relative;
+    
+    box-sizing: border-box;
+}
+
+.mySlides img {
+    width: 100%;
+    height: 400px;
+   
+}
+
+.text {
+    display: inline-block;
+    background-color: #000000a3;
+    color: white;
+    position: absolute;
+    left: 29%;
+    top: 27%;
+    width: 573px;
+    height: 200px;
+    text-align: center;
+}
+
+/*.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+.fade {
+  
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  .active, .dot:hover {
+    background-color: white;
+  }
+ 
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}*/
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+footer h1 {
+      font-weight: lighter;
+      margin-bottom: 0;
+}
+
+footer div p {
+      margin-top: 5px;
+}
+
+footer span, footer h2 {
+      color: #796666;
+      font-weight: lighter;
+
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    color: #999999;
+    font-size: 17px;
+}
+
+footer i {
+    font-size: 26px;
+    border: 1px solid white;
+    padding: 9px;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-youtube, .fa-linkedin-in, .fa-instagram {
+    color: white;
+    margin: 0px 6px 0px 0px;
+}
+
+.fa-facebook-f {
+    background-color: #495ca5;
+   
+}
+
+.fa-twitter {
+    background-color: #41aaf2;
+}
+
+.fa-youtube {
+    background-color: #dd0000;
+}
+
+.fa-linkedin-in {
+    background-color: #0074b8;
+}
+
+.fa-instagram {
+    background-color: #ea0064;
+}
+
+.connect h2 {
+    margin-bottom: 5px;
+    font-size: 27px;
+}
+
+
