@@ -115,45 +115,93 @@ header div {
     line-height: 58px;
 }
 
-@media ( max-width:375px) {
-    ul {
+/*@media ( min-width:320px) {
+   header ul {
         display: none;
     }
     i.fas.fa-bars {
         display: block;
+        font-size: 17px;
+        padding-right: 10px;
     }
+    header h3 {
+       left: 0;
+   }
+   header h1 {
+    font-size: 63px;
+   }
+   header h2 {
+    font-size: 30px;
+   }
+   header h4 {
+       font-size: 14px;
+   }
 
-   h3 {
-       left: 10px;
-   } 
+}*/
 
-}
-
-description h2 {
-    font-weight: lighter;
-    color: saddlebrown;
-    text-align: center;
+description {
+    display: flex;
+    height: 100%;
 }
 
 .march, .apr, .aug {
-    border-radius: 48%;
-    border: 1px solid black;
     display: inline-block;
-    padding: 12px 10px 4px 12px;
+    border:none;
+    border-radius: 55%;
+    padding: 10px 8px;
+
+}
+
+.march, .apr {
     background-color: #043867;
-    border: none;
     color: white;
-    font-size: 18px;
-    display: flex;
-    display: inline-block;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
 }
 
 .aug {
     background-color: #f6d652;
+    color: white;
 }
+
+date {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.up-coming-events, .our-blogs {
+    font-size: 17px;
+}
+
+.award, .test-post {
+    display: flex;
+    margin: 0px 20px 10px 30px;
+
+}
+
+.poem, .picnic-party {
+    display: flex;
+   margin: 0px 15px 10px 20px; 
+}
+
+.details {
+    margin-left: 10px;
+}
+
+.details p, .test-post p {
+    margin-top: 0;
+   width: 85%;
+}
+
+/*@media (min-width:320px) {
+    description {
+        flex-direction: column;
+    }
+    .details p, .test-post p {
+        width: 100%;
+        font-size: 13px;
+    }
+}*/
 
 section h3 {
     text-decoration: underline;
@@ -161,40 +209,28 @@ section h3 {
     margin: 0;
 }
  
-.poem, .picnic-party, .award, .test-post {
-    display: flex;
-margin: 20px;
-}
 
-.details {
-    margin-left: 9px;
-}
-
- .details p{
-     margin-top: 0;
-     width: 470px;
-}
 
 .details p a {
     color: gray;
 }
 
-description {
-    display: flex;
-    margin-top: -4px;
-    height: 380px;
-   
-    
-}
 
 .our-blogs {
     background-color: #faf2c8;
     border: none;
 }
 
-.our-blogs, .up-coming-events {
-   width: 50%;
+.up-coming-events h2, .our-blogs h2 {
+    text-align: center;
 }
+
+.up-coming-events button, .our-blogs button {
+    position: relative;
+    left: 40%;
+}
+
+
 
 description button {
     padding: 13px 15px;
@@ -211,52 +247,7 @@ description button {
     
 }
 
-.events, .blog {
-    position: relative;
-    left: 35%;
-    right: 35%;
-   margin-top: 5px;
-}
 
-date {
-     font-weight: bolder;
-     font-size: 25px;
-}
-
-/*@media (min-width: 370px) {
-  header h3 {
-      left: 0;
-      font-size: 22px;
-  }
-  i.fas.fa-bars {
-      padding: 10px;
-      font-size: 10px;
-  }   
- header div {
-     line-height: 54px;
- }
- header h2 {
-     font-size: x-large;
- } 
-
-header h4 {
-    font-size: 13px;
-}
-   .details p {
-    width: 215px;
-    font-size: 10px;
-   } 
-  description {
-      display:flex;
-      flex-direction: column;
-  }
-  .up-coming-events, .our-blogs {
-      width: auto;
-  }
- .events, .blog {
-     left: 28%;
- } 
-}*/
 
 .slide {
     text-align: center;
@@ -293,38 +284,48 @@ section  h2 {
     border-radius: 5px;
 }
 
-.mySlides  {
+.myslides-fade  {
     position: relative;
-    
-    box-sizing: border-box;
+   
+   
 }
 
-.mySlides img {
+.myslides-fade img {
+    
     width: 100%;
     height: 400px;
    
 }
+
 
 .text {
     display: inline-block;
     background-color: #000000a3;
     color: white;
     position: absolute;
-    left: 29%;
+    left: 25%;
     top: 27%;
     width: 573px;
     height: 200px;
     text-align: center;
 }
 
-/*.prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
 
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
+/*@media (min-width:320px) {
+   
+    .text {
+        width: 316px;
+        left: 21px;
+    }
+    
+    
+    section h4 {
+        font-size: 12px;
+    }
+}*/
+
+
+
 
 .fade {
   
@@ -339,7 +340,7 @@ section  h2 {
   @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
-}*/
+}
 
 footer {
     display: flex;
@@ -378,6 +379,12 @@ footer i {
     padding: 9px;
 }
 
+.explore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .fa-facebook-f, .fa-twitter, .fa-youtube, .fa-linkedin-in, .fa-instagram {
     color: white;
     margin: 0px 6px 0px 0px;
@@ -409,4 +416,20 @@ footer i {
     font-size: 27px;
 }
 
+/*@media (min-width:320px) {
+    footer {
+        display: block;
+    }
+    footer h1, footer p {
+        text-align: center;
+    } 
+    .explore {
+        display: flex;
+        justify-content: space-around;
+    }
+    .connect {
+        text-align: center;
+    }
+
+}*/
 
