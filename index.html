@@ -16,10 +16,10 @@
         <figure>
             <img src="images/library-hero.jpg" alt="library=image">
             <figcaption>
-                <i class="fas fa-bars"></i>
+                <i class="fas fa-bars" onclick="show()"></i>
 
                 <nav>
-                    <ul>
+                    <ul id="hamburger">
                         <li>About Us</li>
                         <li>Programs</li>
                         <li>Events</li>
@@ -105,10 +105,10 @@
             <span class="dot" onclick="currentSlide3()"></span>
         </div>
 
-        <div class="myslides-fade">
+        <div class="myslides-fade" id="bus-image">
             <img src="images/bus.jpg" alt="bus-image">
-           
-    
+
+
             <div class="text">
                 <h2>Free Transportation</h2>
                 <h4>All students have free unlimited bus fare</h4>
@@ -116,7 +116,7 @@
             </div>
         </div>
 
-        <div class="myslides-fade">
+        <div class="myslides-fade" id="apple-image">
 
             <img src="images/apples.jpg" alt="apple-image">
             <div class="text">
@@ -126,7 +126,7 @@
             </div>
         </div>
 
-        <div class="myslides-fade">
+        <div class="myslides-fade" id="bread-image">
             <img src="images/bread.jpg" alt="bread-image">
             <div class="text">
                 <h2>Free Food</h2>
@@ -142,9 +142,9 @@
             <h1>Fictional <span>University</span></h1>
             <p>555.555.5555</p>
         </div>
-      
-            
-        <div>
+
+
+        <div class="exploreli">
             <h2>Explore</h2>
             <nav>
                 <ul>
@@ -155,7 +155,7 @@
                 </ul>
             </nav>
         </div>
-        <div>
+        <div class="learnli">
             <h2>Learn</h2>
             <nav>
                 <ul>

@@ -115,10 +115,17 @@ header div {
     line-height: 58px;
 }
 
-/*@media ( min-width:320px) {
+@media ( max-width:600px) {
    header ul {
-        display: none;
+        display:none;
+        padding-right: 0;
     }
+
+    header nav ul li {
+        display: block;
+    }
+
+
     i.fas.fa-bars {
         display: block;
         font-size: 17px;
@@ -137,7 +144,7 @@ header div {
        font-size: 14px;
    }
 
-}*/
+}
 
 description {
     display: flex;
@@ -193,7 +200,7 @@ date {
    width: 85%;
 }
 
-/*@media (min-width:320px) {
+@media (max-width:600px) {
     description {
         flex-direction: column;
     }
@@ -201,7 +208,7 @@ date {
         width: 100%;
         font-size: 13px;
     }
-}*/
+}
 
 section h3 {
     text-decoration: underline;
@@ -286,7 +293,7 @@ section  h2 {
 
 .myslides-fade  {
     position: relative;
-   
+   display: none;
    
 }
 
@@ -311,7 +318,7 @@ section  h2 {
 }
 
 
-/*@media (min-width:320px) {
+@media (max-width:600px) {
    
     .text {
         width: 316px;
@@ -322,7 +329,7 @@ section  h2 {
     section h4 {
         font-size: 12px;
     }
-}*/
+}
 
 
 
@@ -334,7 +341,7 @@ section  h2 {
   }
 
   .active, .dot:hover {
-    background-color: white;
+    background-color: black;
   }
  
   @keyframes fade {
@@ -416,7 +423,7 @@ footer i {
     font-size: 27px;
 }
 
-/*@media (min-width:320px) {
+@media (max-width:600px) {
     footer {
         display: block;
     }
@@ -431,5 +438,6 @@ footer i {
         text-align: center;
     }
 
-}*/
+}
+
 
